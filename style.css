@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0.5px solid black;
+}
+body{
+    width: 960px;
+}
+.cabecera{
+    width: auto;
+    height: 60px;
+}
+.cabecera div{
+    width: 150px;
+    height: 60px;
+    display: inline-block;
+}
+.pie{
+    clear: both;
+}
+.principal{
+    width: auto;
+    height: 150px;
+    margin: 8px 0px;
+}
+.central{    
+    width: 470px;
+    margin: 0px 8px;
+}
+.columna{    
+    width: 230px;
+}
+.columna, .central{
+    height: 350px;
+    float: left;
+}
