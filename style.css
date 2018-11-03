@@ -2,6 +2,9 @@
   margin: 0px;
   padding: 0px;
 }
+.contenedor{
+    background: #ccc;
+}
 body {
   width: auto;
 }
@@ -14,10 +17,12 @@ body {
 .cabecera li {
   width: 160px;
   height: 40px;
-  display: inline-block;
   text-align: center;
   font-family: sans-serif;
   align-items: center;
+}
+.autor, .union, .cabecera li {    
+  display: inline-block; 
 }
 nav li {
   padding-top: 18px;
@@ -28,6 +33,10 @@ li:hover{
     width: 165px;
     color: black;
     border: 0.5px solid red;
+}
+.articulos a{
+    color: black;
+    font-weight: bold;
 }
 .pie {
   clear: both;
@@ -41,6 +50,10 @@ li:hover{
   width: 59%;
   margin: 0px 8px;
 }
+.articulos{
+    background: #ffffff;
+    padding: 0px 8px;
+}
 .columna {
   width: 20%;
 }
@@ -48,4 +61,26 @@ li:hover{
 .central {
   height: 500px;
   float: left;
+}
+.categoria{
+    text-align: left;
+    margin: 15px 0px;
+    padding-bottom: 10px;
+}
+.union, .categoria{    
+    color: #999999;
+}
+img{
+    width: 185px;
+    height: 150px;
+    display: block; 
+}
+P, date{
+    font-size: 10px;
+}
+p{    
+    margin: 5px 0px;
+}
+h1{
+    padding-top: 8px;
 }
